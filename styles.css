@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('PHOTOS/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img {
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header-text {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #ff0077;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.content-wrapper {
+    min-height: calc(100vh - 80px);
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.welcome-heading {
+    font-family: "Arial", sans-serif; /* Apply a specific font family */
+    font-weight: bold; /* Apply a bold font weight */
+    font-size: 2rem; /* Adjust font size */
+}
+
+.heading-style {
+    font-family: "Helvetica Neue", sans-serif; /* Apply a different font family */
+}
+
+.footer-text {
+    font-family: "Times New Roman", serif; /* Apply a different font family */
+    font-size: 0.8rem; /* Adjust font size */
+}
